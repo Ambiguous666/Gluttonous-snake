@@ -1,9 +1,8 @@
 import './style/index.less'
-import Food from './modules/Food'
+import GameControl from "./modules/GameControl";
 
-const food = new Food();
-console.log(food.X, food.Y);
+const gc = new GameControl();
 
-food.change();
-console.log(food.X,food.Y);
-
+// setInterval(()=>{
+//   console.log(gc.direction); 
+// },1000)
